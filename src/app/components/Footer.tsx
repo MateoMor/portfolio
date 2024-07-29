@@ -8,11 +8,11 @@ const socialData = [
   {
     link: 'https://github.com/MateoMor',
     icon: <Github width={iconSize.width} height={iconSize.height} />
-  }/* , // I don´t have linkedin yet
+  }, 
   {
-    link: 'https://www.linkedin.com/in/',
+    link: 'https://www.linkedin.com/in/mateo-morales-ramirez/',
     icon: <Linkedin width={iconSize.width} height={iconSize.height} />
-  } */
+  }
 ]
 
 export const Footer = () => {
