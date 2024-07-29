@@ -31,7 +31,7 @@ export const projectsData: projectType[] = [
     repo: 'https://github.com/MateoMor/qr_scanner',
     url: false,
     image:
-      'https://i.ibb.co/8mxtkmK/qr-scanner.png',
+      'https://i.ibb.co/0FDPHNM/qr-scanner.png',
     description: "A mobile QR scanner with history and configuration functionalities, utilizing the device's camera, storage, and vibration.",
     tags: ['react-native', 'JavaScript', 'expo']
   },
