@@ -1,6 +1,6 @@
 import { MotionDiv } from '../lib/motion'
 
-import { Github, Linkedin } from 'lucide-react'
+import { Github, Linkedin, Contact2Icon } from 'lucide-react'
 
 const iconSize = { width: 28, height: 28 }
 
@@ -12,6 +12,10 @@ const socialData = [
   {
     link: 'https://www.linkedin.com/in/mateo-morales-ramirez/',
     icon: <Linkedin width={iconSize.width} height={iconSize.height} />
+  },
+  {
+    link: 'https://gold-ursuline-96.tiiny.site/',
+    icon: <Contact2Icon width={iconSize.width} height={iconSize.height} />
   }
 ]
 

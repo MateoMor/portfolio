@@ -1,10 +1,11 @@
 import { MotionDiv } from '../lib/motion'
 
-import { Github, Linkedin } from 'lucide-react'
+import { Github, Linkedin, Contact2Icon } from 'lucide-react'
 
 export const socialData = [
   { link: 'https://github.com/MateoMor', icon: <Github /> },
-  { link: 'https://www.linkedin.com/in/mateo-morales-ramirez/', icon: <Linkedin /> }
+  { link: 'https://www.linkedin.com/in/mateo-morales-ramirez/', icon: <Linkedin /> },
+  { link: 'https://gold-ursuline-96.tiiny.site/', icon: <Contact2Icon /> }
 ]
 
 export const SocialLinks = () => {
