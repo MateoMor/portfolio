@@ -133,6 +133,10 @@ export const skillsData = [
     name: 'NestJS'
   },
   {
+    img: 'react/react-original.svg',
+    name: 'React Native'
+  },
+  {
     img: 'postgresql/postgresql-original.svg',
     name: 'PostgreSQL'
   },
