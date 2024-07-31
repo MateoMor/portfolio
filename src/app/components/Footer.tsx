@@ -14,7 +14,7 @@ const socialData = [
     icon: <Linkedin width={iconSize.width} height={iconSize.height} />
   },
   {
-    link: 'https://gold-ursuline-96.tiiny.site/',
+    link: 'https://aqua-jaclyn-6.tiiny.site/',
     icon: <Contact2Icon width={iconSize.width} height={iconSize.height} />
   }
 ]
