@@ -109,6 +109,10 @@ export const skillsData = [
     name: 'C++'
   },
   {
+    img: 'java/java-original-wordmark.svg',
+    name: 'Java'
+  },
+  {
     img: 'react/react-original.svg',
     name: 'React'
   },
