@@ -53,7 +53,8 @@ export const projectsData: projectType[] = [
     description: 'A catalog app for movies and series with filters, searchbar and pagination, consuming an API to provide detailed information.',
     tags: ['react', 'JavaScript','react-router', 'api']
   },
-  {
+  // App removed because API credits ran out
+  /* {
     name: 'News App',
     repo: 'https://github.com/MateoMor/News-App',
     url: 'https://66a72fce9bd459f5d4255ee2--inquisitive-lily-e115dc.netlify.app/',
@@ -61,7 +62,7 @@ export const projectsData: projectType[] = [
       'https://i.ibb.co/9qPwzQd/News-App.png',
     description: 'A news app that pulls data from a news API to deliver up-to-date information, styled with TailwindCSS, Shadcn, and V0.dev.',
     tags: ['react', 'JavaScript', 'tailwind', 'react-router', 'api', 'V0.dev']
-  },
+  }, */
   {
     name: 'Christmas Memory Game with only HTML and CSS',
     repo: 'https://github.com/MateoMor/Christmas-Memory-Game-with-HTML-and-CSS',
