@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { MotionDiv, MotionNav } from '../../lib/motion'
 import { projectType } from '../../utils/data'
 
-import { Code2, ExternalLink } from 'lucide-react'
+import { Code2, ExternalLink, Youtube } from 'lucide-react'
 
 type Props = {
   projectData: projectType
@@ -59,6 +59,16 @@ export const ProjectCard = ({ projectData }: Props) => {
                 rel="noreferrer"
               >
                 <ExternalLink />
+              </a>
+            )}
+            {projectData.video && (
+              <a
+                target="_blank"
+                href={projectData.video}
+                className="rounded-lg bg-textLight p-3 text-black transition hover:text-target sm:p-2"
+                rel="noreferrer"
+              >
+                <Youtube />
               </a>
             )}
           </MotionNav>
