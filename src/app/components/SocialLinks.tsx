@@ -5,7 +5,7 @@ import { Github, Linkedin, Contact2Icon } from 'lucide-react'
 export const socialData = [
   { link: 'https://github.com/MateoMor', icon: <Github /> },
   { link: 'https://www.linkedin.com/in/mateo-morales-ramirez/', icon: <Linkedin /> },
-  { link: 'https://aqua-jaclyn-6.tiiny.site/', icon: <Contact2Icon /> }
+  { link: '/CV - MATEO MORALES.pdf', icon: <Contact2Icon /> }
 ]
 
 export const SocialLinks = () => {
