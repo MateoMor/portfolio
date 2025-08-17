@@ -102,14 +102,7 @@ export const projectsData: projectType[] = [
 ]
 
 export const skillsData = [
-  {
-    img: 'html5/html5-original.svg',
-    name: 'HTML'
-  },
-  {
-    img: 'css3/css3-original.svg',
-    name: 'CSS'
-  },
+  // Core Programming Languages (Most Important)
   {
     img: 'javascript/javascript-original.svg',
     name: 'JavaScript'
@@ -123,25 +116,33 @@ export const skillsData = [
     name: 'Python'
   },
   {
-    img: 'cplusplus/cplusplus-original.svg',
-    name: 'C++'
-  },
-  {
     img: 'java/java-original-wordmark.svg',
     name: 'Java'
   },
+  {
+    img: 'cplusplus/cplusplus-original.svg',
+    name: 'C++'
+  },
+  
+  // Frontend Frameworks & Libraries (High Demand)
   {
     img: 'react/react-original.svg',
     name: 'React'
   },
   {
-    img: 'tailwindcss/tailwindcss-original.svg',
-    name: 'Tailwindcss'
-  },
-  {
     img: 'nextjs/nextjs-original.svg',
     name: 'Nextjs'
   },
+  {
+    img: 'react/react-original.svg',
+    name: 'React Native'
+  },
+  {
+    img: 'tailwindcss/tailwindcss-original.svg',
+    name: 'Tailwindcss'
+  },
+  
+  // Backend & API Technologies
   {
     img: 'nodejs/nodejs-original.svg',
     name: 'Node.js'
@@ -155,17 +156,21 @@ export const skillsData = [
     name: 'NestJS'
   },
   {
-    img: 'react/react-original.svg',
-    name: 'React Native'
+    img: 'nodejs/nodejs-original.svg',
+    name: 'API'
   },
+  
+  // Databases
   {
     img: 'postgresql/postgresql-original.svg',
     name: 'PostgreSQL'
   },
   {
-    img: 'git/git-original.svg',
-    name: 'Git'
+    img: 'mysql/mysql-original.svg',
+    name: 'SQL'
   },
+  
+  // Cloud & DevOps (High Demand)
   {
     img: 'amazonwebservices/amazonwebservices-original-wordmark.svg',
     name: 'AWS'
@@ -175,8 +180,78 @@ export const skillsData = [
     name: 'Docker'
   },
   {
+    img: 'amazonwebservices/amazonwebservices-original-wordmark.svg',
+    name: 'AWS ECS'
+  },
+  {
+    img: 'amazonwebservices/amazonwebservices-original-wordmark.svg',
+    name: 'Amazon S3'
+  },
+  {
+    img: 'amazonwebservices/amazonwebservices-original-wordmark.svg',
+    name: 'Amazon VPC'
+  },
+  
+  // Version Control & Development Tools (Essential)
+  {
+    img: 'git/git-original.svg',
+    name: 'Git'
+  },
+  {
+    img: 'github/github-original.svg',
+    name: 'GitHub'
+  },
+  {
+    img: 'postman/postman-original.svg',
+    name: 'Postman'
+  },
+  
+  // Web Fundamentals
+  {
+    img: 'html5/html5-original.svg',
+    name: 'HTML'
+  },
+  {
+    img: 'css3/css3-original.svg',
+    name: 'CSS'
+  },
+  
+  // Testing & Automation
+  {
+    img: 'selenium/selenium-original.svg',
+    name: 'Selenium'
+  },
+  {
+    img: 'selenium/selenium-original.svg',
+    name: 'Appium'
+  },
+  
+  // Data Science & ML
+  {
+    img: 'python/python-original.svg',
+    name: 'Machine Learning'
+  },
+  {
+    img: 'tensorflow/tensorflow-original.svg',
+    name: 'TensorFlow'
+  },
+  {
+    img: 'tensorflow/tensorflow-original.svg',
+    name: 'CNN'
+  },
+  {
+    img: 'jupyter/jupyter-original.svg',
+    name: 'Jupyter Notebook'
+  },
+  
+  // Operating Systems & Development Environment
+  {
     img: 'linux/linux-original.svg',
     name: 'Linux'
+  },
+  {
+    img: 'ubuntu/ubuntu-plain.svg',
+    name: 'Ubuntu'
   },
   {
     img: 'archlinux/archlinux-original.svg',
@@ -186,8 +261,16 @@ export const skillsData = [
     img: 'bash/bash-original.svg',
     name: 'Bash'
   },
+  
+  // Desktop Development
   {
     img: 'qt/qt-original.svg',
     name: 'Qt'
+  },
+  
+  // Methodologies (Important but less technical)
+  {
+    img: 'git/git-original.svg',
+    name: 'Scrum Methodology'
   }
 ]
