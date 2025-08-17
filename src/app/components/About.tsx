@@ -17,17 +17,17 @@ export const About = () => {
           className="flex max-w-2xl flex-col gap-6 text-xl md:text-center sm:text-lg"
         >
           <p>
-            Hello, my name is <strong>Mateo Morales</strong>. I am a Systems
-            Engineering student at the Technological University of Pereira in
-            Colombia and a full-stack developer. I work with web and mobile
-            technologies such as ReactJS, React Native, and NextJS. I am also
-            passionate about AI and machine learning technologies.
+            I am a Systems Engineering student and web & ML developer with hands-on experience in academic projects, research, and personal initiatives. My main interests are <strong>Machine Learning</strong> and <strong>Web Development</strong>.
           </p>
 
           <p>
-            Currently, I am studying web development and machine learning, and I
-            am seeking a job.
+            Currently, I am a member of the <strong>Neuroinformatics and Artificial Intelligence Research Group (SNEIA)</strong>, where I have worked on cell segmentation software in brain tissue micrographs using TensorFlow and state-of-the-art models such as SAM and YOLO. I also provide educational support in machine learning topics for other group members.
           </p>
+
+          <p>
+            In 2024, I completed a <strong>Full-Stack Web Development Bootcamp</strong> at the Technological University of Pereira, strengthening my skills in building scalable and modern applications.
+          </p>
+
           <MotionDiv className="flex justify-start md:justify-center">
             <Link
               href="#contact"
