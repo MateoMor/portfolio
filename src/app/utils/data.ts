@@ -49,6 +49,15 @@ export const projectsData: projectType[] = [
     tags: ['Qt', 'C++', 'OpenGL', 'OpenMP']
   },
   {
+    name: 'Inventory Management App',
+    repo: 'https://github.com/MateoMor/gestionInventarioAPP',
+    url: false,
+    video: false,
+    image: "/projectImages/GestionInventarioAPP.png",
+    description: 'A desktop inventory management application built with Java Swing, featuring user authentication, role-based access control, and a complete CRUD system for inventory management.',
+    tags: ['Java', 'Swing', 'Desktop Application', 'Authentication', 'CRUD', 'OOP']
+  },
+  {
     name: 'Cinema App',
     repo: 'https://github.com/MateoMor/Cinema-App',
     url: 'https://shiny-lolly-8ad7ad.netlify.app/',
