@@ -10,8 +10,8 @@ const container = {
     opacity: 1,
     scale: 1,
     transition: {
-      delayChildren: 0.3,
-      staggerChildren: 0.1
+      delayChildren: 0.2,
+      staggerChildren: 0.06
     }
   }
 }
@@ -37,7 +37,7 @@ export const Skills = () => {
         {skillsData.map((skill, index) => (
           <MotionDiv
             variants={item}
-            transition={{ duration: 0.3 }}
+            transition={{ duration: 0.25 }}
             key={index}
             className="flex items-center gap-3 rounded-lg bg-secondary px-4 py-2 font-bold"
           >
