@@ -66,7 +66,7 @@ export const projectsData: projectType[] = [
     video: false,
     image: "/projectImages/GestionInventarioAPP.png",
     description: 'A desktop inventory management application built with Java Swing, featuring user authentication, role-based access control, and a complete CRUD system for inventory management.',
-    tags: ['Java', 'Swing', 'Desktop Application', 'Authentication', 'CRUD', 'OOP']
+    tags: ['Java', 'Swing', 'Desktop Application', 'CRUD', 'OOP']
   },
   {
     name: 'Cinema App',
