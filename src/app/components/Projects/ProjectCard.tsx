@@ -44,6 +44,7 @@ export const ProjectCard = ({ projectData }: Props) => {
             }}
             className="flex items-center gap-x-4"
           >
+            {projectData.repo && (
             <a
               target="_blank"
               href={projectData.repo}
@@ -52,6 +53,7 @@ export const ProjectCard = ({ projectData }: Props) => {
             >
               <Code2 />
             </a>
+            )}
             {projectData.url && (
               <a
                 target="_blank"
@@ -76,6 +78,7 @@ export const ProjectCard = ({ projectData }: Props) => {
         </MotionDiv>
         <div className="absolute left-0 top-0 z-10 hidden h-full w-full items-end bg-black bg-opacity-80 p-3 opacity-0 transition hover:opacity-100 md:flex">
           <nav className="flex items-center gap-x-4">
+          {projectData.repo && (
             <a
               target="_blank"
               href={projectData.repo}
@@ -84,6 +87,7 @@ export const ProjectCard = ({ projectData }: Props) => {
             >
               <Code2 />
             </a>
+            )}
             {projectData.url && (
               <a
                 target="_blank"

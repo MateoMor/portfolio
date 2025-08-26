@@ -8,7 +8,7 @@ export const navigationLinks = [
 
 export type projectType = {
   name: string
-  repo: string
+  repo: string | false
   url: string | false
   video: string | false
   image: string
@@ -37,6 +37,17 @@ export const projectsData: projectType[] = [
       'https://i.ibb.co/0FDPHNM/qr-scanner.png',
     description: "A mobile QR scanner with history and configuration functionalities, utilizing the device's camera, storage, and vibration.",
     tags: ['react-native', 'JavaScript', 'expo']
+  },
+  {
+    name: 'Brain Cells Segmentatation',
+    repo: false,
+    url: false,
+    video: false,
+    image:
+      '/projectImages/BrainCellsSegmentation.png',
+    description:
+      'Computer vision software for the segmentation of cells in brain tissue micrographs using state-of-the-art models such as SAM and YOLO, developed with TensorFlow and Python.',
+    tags: ['python', "TensorFlow", 'Computer vision', 'SAM', 'YOLO']
   },
   {
     name: 'Fluid Simulator',
